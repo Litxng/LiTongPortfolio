@@ -22,8 +22,7 @@
     <title>LiTong Portfolio</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a href="#" class="navbar-brand d-flex align-items-center pl-5">礼tong</a>
 
         <button class="navbar-toggler bg-white" type="button" data-toggle="collapse" data-target="#navbar1">
@@ -33,23 +32,22 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbar1">
         <ul class="navbar-nav">
           <li class="navbar-item">
-            <a href="#" class="nav-link text-light pr-5">Home</a>
+            <a href="#home" class="nav-link text-light pr-5">Home</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="nav-link text-light pr-5">About Me</a>
+            <a href="#about" class="nav-link text-light pr-5">About Me</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="nav-link text-light pr-5">Portfolio</a>
+            <a href="#portfolio" class="nav-link text-light pr-5">Portfolio</a>
           </li>
           <li class="navbar-item">
-            <a href="#" class="nav-link text-light ">Contact</a>
+            <a href="#contact" class="nav-link text-light ">Contact</a>
           </li>
         </ul>
       </div>
       </nav>
-    </div>
 
-    <main class="site-main">
+    <main class="site-main" id="home">
 
     <section class="site-banner">
     <div class="container">
@@ -70,7 +68,7 @@
   </section>
 </main>
 
-<main class="site-about pt-5">
+<main class="site-about pt-5" id="about">
   <div class="container">
     <div class="row">
       <div class="col-sm-6">
@@ -96,7 +94,7 @@
 <div class="container">
 <hr class="line">
 </div>
-  <main class="site-portfolio pt-2">
+  <main class="site-portfolio pt-2" id="portfolio">
     <div class="container portfolio">
       <div class="c-card">
         <div class="imgbx">
@@ -203,7 +201,7 @@
 <hr class="line">
 </div>
 
-<main class="contact">
+<main class="contact" id="contact">
   <div class="container">
     <div class="row">
       <div class="col-sm-6" >
@@ -277,6 +275,22 @@
   </div>
 </main>
 
+<div class="footer-basic">
+  <footer>
+      <div class="social"><a href="https://www.instagram.com/li._.liu/" target="__blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://github.com/Litxng"target="__blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/litxng"target="__blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a href="#" target="__blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></div>
+      <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">About Me</a></li>
+          <li class="list-inline-item"><a href="#">Portfolio</a></li>
+          <li class="list-inline-item"><a href="#">Contact</a></li>
+          <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+      </ul>
+      <p class="copyright">litong © 2021</p>
+  </footer>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
